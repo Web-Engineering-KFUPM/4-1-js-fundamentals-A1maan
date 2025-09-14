@@ -161,13 +161,14 @@ console.log(cube(3));
 // Declare var a = 1; let b = 2 inside a block { },  then try displaying both outside the block; observe differences.
 // write code here
 
-var a = 1;
+
 {
+    var a = 1;
     let b = 2;
 }
 
 console.log(a);
-// console.log(b);
+console.log(b);
 
 
 // ==================
